@@ -1,0 +1,20 @@
+ Part C - Provide a document describing
+
+o   Which design patterns have you used in the implementation
+I have simply used spring boot framework, with that I have provided Swagger implementation.
+
+o   Schema describing the messages produced by the solution
+This application will genrate a solution based on below DTO's:
+
+   1.  private String url;
+   2.  private String videoTitle;
+
+o   How to compile the source code produced
+Just do mvn clean install and project will be compiled, I have removed my API Key from the code, for testing purpose please use your own API key so that it can give you the proper results.
+
+o   How to execute your programs to produce the results previously described
+Just hit the swagger endpoint and provide two things and it will show you the logs.
+
+o   Looking back at the implementation, what would you consider doing differently.
+1. I am not sure whether i can directly hit the YouTube api through rest template, i have tried that but have not got succeed,
+2. integration test are missing because of the time limitation.
